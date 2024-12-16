@@ -1,0 +1,56 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="BOOKING.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="Nav">
+            <h1 class="MinorHeadText">BOOKING</h1>
+            <a class="NavText" href="UASREV.html">Back</a>
+        </div>
+        <div class="maincontent">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h1 class="Minor" >Contact Info</h1>
+                    <div class="ContactInfo" >
+                        <img class="face" src="Face.jpg" >
+                       <p class="ContactText"> Nama: Pak Hary <br>
+                            Nomor Telp: 0899-1222-3432 <br>
+                            "Mempunyai pengalaman lebih dari 10 tahun di industri bengkel sepedah. Bisa bekerja dengan semua tipe dan varian sepedah yang ada di pasar"
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="form" >
+                        <p class="ContactText">Jelaskan Tindakan Yang Perlu Dilakukan:</p>
+                        <textarea rows="4" cols="50"></textarea>
+                        <p class="ContactText">Pilih Tanggal Kunjungan:<input type="date"> </p>
+                        
+                    </div>
+                    <button id="myButton" class="button" >Send</button>
+                    <script>
+                        // Select the button
+                        const button = document.getElementById('myButton');
+                    
+                        // Add a click event listener to the button
+                        button.addEventListener('click', () => {
+                          // Change the button text
+                          button.textContent = "Sent!";
+                        });
+                      </script>
+
+                </div>
+              </div>
+        </div>
+    </div>
+</body>

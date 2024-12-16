@@ -1,0 +1,90 @@
+body{
+    background-color: turquoise;
+}
+.container{
+    width: 1400px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: turquoise;
+   max-width: 100%; /* Restrict width to the parent container */
+   border: solid 1px black;
+ 
+  overflow: auto; /* Add scrollbars if content overflows */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+  .grid-item {
+    background-color: #FFF4E9 ;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+    
+  }
+.TestimoniImg{
+    width: 287px;
+    height: 250px;
+    border: solid 2px;
+    border-radius: 15px;
+}
+.Nav{
+    background-color:#FF7F50 ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family:"Bungee", sans-serif ;
+    text-decoration: none;
+    color: black;
+}
+.NavText{
+    text-decoration: none;
+    color: black;
+    border: solid 2px;
+    border-radius: 20px;
+    width: auto;
+    padding: 5px;
+    background-color: #FFF4E9;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.MinorHeadText{
+    text-decoration: none;
+    color: black;
+    width: auto;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.face{
+    width: 230px;
+    height: auto;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+.ContactInfo {
+    display: flex;
+}
+.ContactText {
+    text-align: left;
+    font-family: "Chelsea Market", system-ui;
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.Minor {
+    font-family:"Bungee", sans-serif ;
+    font-size: 25px;
+}
+.button{
+    font-family: "Bungee", sans-serif ;
+    font-size: larger;
+    padding: 5px;
+    margin: 5px;
+}

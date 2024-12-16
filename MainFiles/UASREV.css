@@ -1,0 +1,76 @@
+body{
+    background-color: turquoise;
+}
+
+.container{
+    width: 1200px;
+   margin-right: auto;
+   margin-left: auto;
+   background-color: turquoise;
+   border: solid 1px black;
+}
+.heroimg{
+    width: 1000px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 5px ;
+    border-radius: 15px;
+}
+.HeroHeader{
+    z-index: 1;
+    text-align: center;
+    background-color: #FFF4E9;
+    font-family: "Bungee", sans-serif;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border: solid 2px ;
+    border-radius: 10px;
+
+}
+.hero{
+    justify-items: center;
+    display: grid;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+  .grid-item {
+    background-color: #FFF4E9 ;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+    
+  }
+.TestimoniImg{
+    width: 287px;
+    height: 250px;
+    border: solid 2px;
+    border-radius: 15px;
+}
+.Nav{
+    background-color:#FF7F50 ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family:"Bungee", sans-serif ;
+    text-decoration: none;
+    color: black;
+}
+.NavText{
+    text-decoration: none;
+    color: black;
+    border: solid 2px;
+    border-radius: 20px;
+    width: auto;
+    padding: 5px;
+    background-color: #FFF4E9;
+}
